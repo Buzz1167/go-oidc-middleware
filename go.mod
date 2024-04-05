@@ -7,7 +7,7 @@ require (
 	github.com/stretchr/testify v1.9.0
 	github.com/xenitab/dispans v0.0.10
 	go.uber.org/ratelimit v0.3.1
-	golang.org/x/sync v0.6.0
+	golang.org/x/sync v0.7.0
 )
 
 require (
