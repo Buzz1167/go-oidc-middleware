@@ -56,6 +56,7 @@ func NewHandler[T any](claimsValidationFn options.ClaimsValidationFn[T], setters
 		disableKeyID:            opts.DisableKeyID,
 		disableIssuerValidation: opts.DisableIssuerValidation,
 		httpClient:              opts.HttpClient,
+		additionalKeys:		 opts.AdditionalKeys,
 		claimsValidationFn:      claimsValidationFn,
 	}
 
